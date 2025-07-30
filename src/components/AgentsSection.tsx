@@ -6,43 +6,37 @@ import Autoplay from "embla-carousel-autoplay";
 const agents = [
   {
     name: "GetFast",
-    description: "AI-Accelerated content generators turned for Article & English",
-    details: "Perfect target accredation strategist 5x faster, GHL and Consultancy",
+    description: "AI-Accelerated content generators for high-impact marketing content",
     icon: Brain,
     gradient: "from-blue-500 to-cyan-500"
   },
   {
     name: "ConsumerCraft",
-    description: "Creates dynamic customer personas & user-crowd maps",
-    details: "Upload and turn product feedback & specs to positioning, Real-time Insights, 360° Customer View",
+    description: "Creates dynamic customer personas and comprehensive user journey maps",
     icon: Users,
     gradient: "from-purple-500 to-pink-500"
   },
   {
     name: "WorthBot",
-    description: "Build Lifetime quick checks or revenues",
-    details: "Reduce churn up to 5x from day to base, +20% FRR Store, +40% CLV",
+    description: "Advanced lifetime value calculations and revenue optimization",
     icon: TrendingUp,
     gradient: "from-green-500 to-emerald-500"
   },
   {
     name: "TrendLens",
-    description: "Stay live data-stack trends in real-time sets",
-    details: "Stay live competitive before Competition even starts, Social monitoring, +2-5x Marketing",
+    description: "Real-time market trend analysis and competitive intelligence",
     icon: Eye,
     gradient: "from-orange-500 to-red-500"
   },
   {
     name: "DealGen",
-    description: "Online AI strategy/data workflow insights, custom-written casual",
-    details: "Use ML & automation marketing and, +20% Higher ROI, Auto Optimization",
+    description: "AI-powered sales strategy and workflow optimization",
     icon: Zap,
     gradient: "from-yellow-500 to-orange-500"
   },
   {
     name: "CompetitShip",
-    description: "AI-powered every move you cash tech",
-    details: "Constantly file competitive wall products and efficiency, Predictive file insights, Game/Test",
+    description: "Comprehensive competitive analysis and market positioning",
     icon: Shield,
     gradient: "from-indigo-500 to-purple-500"
   }
@@ -102,11 +96,6 @@ const AgentsSection = () => {
                         {agent.description}
                       </CardDescription>
                     </CardHeader>
-                    <CardContent className="relative z-10">
-                      <p className="text-muted-foreground text-sm leading-relaxed">
-                        {agent.details}
-                      </p>
-                    </CardContent>
                     
                     {/* Hover effect overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

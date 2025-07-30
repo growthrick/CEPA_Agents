@@ -39,7 +39,14 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-background/60 text-sm">
-          <p>&copy; 2024 MyAibo. All rights reserved.</p>
+          <p>MyAibo - Building the future of AI, one autonomous agent at a time.</p>
+        </div>
+      </div>
+      
+      {/* Purple section at bottom */}
+      <div className="bg-primary py-4">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-white text-sm">&copy; 2024 MyAibo. All rights reserved.</p>
         </div>
       </div>
     </footer>
